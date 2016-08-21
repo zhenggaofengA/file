@@ -1,0 +1,1386 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+}
+body,html{
+    height: 100%;
+}
+.header .topNav{
+    height: 30px;
+    width: 100%;
+    background: #333333;
+}
+.header .topNav .photo{
+    width: 38px;
+    height: 30px;
+    /*background: yellow;*/
+}
+.header .topNav .photo img{
+    background: url("../img/app_icon_43ba565.png");
+    width: 10px;
+    height: 15px;
+    margin: 7px 0 0 28px;
+}
+
+.topNav .topNavL a{
+    float: left;
+    font-size: 14px;
+    padding-top: 1px;
+    line-height: 14px;
+    margin-top: 7px;
+
+}
+.topNav .topNavL .app{
+    width: 69px;
+    height: 14px;
+    margin-left: 7px;
+    color: #16d797;
+    border-right: 1px solid #5d5d5d;
+}
+.topNav .topNavL .comp{
+    width: 70px;
+    height: 14px;
+    margin-left: 12px;
+    color: #c4c3c3;
+}
+
+.header .topNav div{
+    float: left;
+}
+.topNav .topNavR{
+    float: right;
+    margin: 7px 30px 0 0;
+}
+.topNav .topNavR li{
+    float: left;
+    /*background: yellow;*/
+}
+.topNav .topNavR li a{
+    color: #c4c3c3;
+}
+.topNav .topNavR .load{
+    width: 41px;
+    height: 15px;
+    padding-top: 1px;
+    line-height: 14px;
+    padding-right: 11px;
+}
+.topNav .topNavR .register{
+    width: 32px;
+    height: 15px;
+    padding-top: 1px;
+    line-height: 14px;
+    padding-left: 12px;
+    border-left: 1px solid #c4c3c3;
+}
+
+.topNav .topNavR li a{
+    font-size: 14px;
+}
+.header .nav{
+    height: 54px;
+    width: 100%;
+    background: #fafafa;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.nav .navList{
+    width: 223px;
+    height: 34px;
+    margin: 10px 0 0 164px;
+    /*background: yellow;*/
+    float: left;
+}
+.nav .navList h1 .logoImg{
+    float: left;
+    background: url("../img/logo-birth-3rd_56f9d40.png") -4px 0 no-repeat;
+    width: 88px ;
+    height: 34px;
+}
+.nav .navList .posi{
+    float: left;
+    font-size: 17px;
+    /*background: red;*/
+    margin: 14px 0 0 17px;
+    color: #333333;
+}
+.nav .navList .city{
+    float: left;
+    font-size: 12px;
+    /*background: red;*/
+    margin: 19px 0 0 8px;
+    color: #999999;
+}
+.nav .choose{
+    float: left;
+    width: 247px;
+    height: 55px;
+    /*background: yellow;*/
+    margin-left: 13px;
+    padding-left: 36px;
+}
+.nav .choose a{
+    /*float: left;*/
+    display: block;
+    width: 42px;
+    height: 35px;
+    /*background: red;*/
+    margin-right: 36px;
+    font-size: 16px;
+    padding: 18px 0 0 4px;
+}
+.nav .choose a.color{
+    color: blue;
+}
+.nav .choose li{
+    float: left;
+}
+.nav .choose div{
+    width: 46px;
+    height: 2px;
+    /*background: aqua;*/
+}
+.nav .choose div.bg{
+    background: #00b38a;
+}
+.content{
+    width: 1024px;
+    margin: 35px auto 0;
+    /*background: yellow;*/
+}
+.content .contentL{
+    float: left;
+    width: 230px;
+    /*height: 300px;*/
+    background: #fafafa;
+    position: relative;
+}
+/*.content .contentL .xxx{
+    width: 230px;
+    height: 300px;
+    background: blue;
+    position: relative;
+    /!*top: 0;*!/
+    /!*left: 0;*!/
+}*/
+.content .contentL .one{
+    width: 193px;
+    height: 144px;
+    /*background: yellow;*/
+    padding: 12px 16px 10px 21px ;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.content .contentL .two{
+    width: 193px;
+    height: 90px;
+    /*background: yellow;*/
+    padding: 12px 16px 10px 21px ;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.content .contentL .three{
+    width: 193px;
+    height: 90px;
+    /*background: yellow;*/
+    padding: 12px 16px 10px 21px ;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.content .contentL .four{
+    width: 193px;
+    height: 90px;
+    /*background: yellow;*/
+    padding: 12px 16px 10px 21px ;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.content .contentL .five{
+    width: 193px;
+    height: 90px;
+    /*background: yellow;*/
+    padding: 12px 16px 10px 21px ;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.content .contentL .six{
+    width: 193px;
+    height: 63px;
+    /*background: yellow;*/
+    padding: 12px 16px 10px 21px ;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.content .contentL .seven{
+    width: 193px;
+    height: 63px;
+    /*background: yellow;*/
+    padding: 12px 16px 10px 21px ;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.content .contentL span{
+
+    font-size: 17px;
+    line-height: 35px;
+}
+.content .contentL span.point{
+    background: url("../img/arr_7b73530.png")  0 0 no-repeat;
+    float: right;
+    width: 7px;
+    height: 13px;
+    /*vertical-align: middle;*/
+    margin-top: 9px;
+}
+.content .contentL span.new{
+    /*float: left;*/
+    display: inline-block;
+    margin-left: 3px;
+    background: url("../img/newLabel_6636f33.png") 0 0 no-repeat;
+    width: 37px;
+    height: 17px;
+}
+.content .contentL a{
+    float: left;
+    margin-right: 21px;
+    line-height: 28px;
+    font-size: 12px;
+
+
+}
+
+.content .contentL .child{
+    width: 193px;
+    height: 144px;
+    padding: 10px 16px 8px 19px ;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    border: 2px solid #c9cbce;
+    border-right: none;
+}
+.content .contentL .child1{
+    width: 600px;
+    /*height: 920px;*/
+    border: 2px solid #c9cbce;
+    /*background: palegoldenrod;*/
+    position: absolute;
+    left: 228px;
+    top: 0;
+    padding-top: 16px;
+    /*z-index: 100;*/
+    background: white;
+}
+.content .contentL .child1 a{
+    float: left;
+    font-size: 12px;
+    /*background: yellow;*/
+}
+.content .contentL .child1 a:hover{
+    text-decoration: underline;
+    color: #00b38a;
+}
+.content .contentL .child1 .guideTitle{
+    text-decoration: underline;
+}
+.content .contentL .child a:hover{
+    text-decoration: underline;
+    color: #00b38a;
+}
+.content .contentL .child1 .guide span{
+    float: left;
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #c6c6c6;
+    margin: 7px 10px 0 13px;
+}
+.content .contentL .child1 .guide{
+    /*background: red;*/
+    /*clear: both;*/
+}
+.content .contentL .child1 .guide div{
+    float: left;
+    width: 100px;
+    /*background: navajowhite;*/
+}
+.content .contentL .child1 .guide .guideTitle{
+    float: right;
+    line-height: 28px;
+}
+.content .contentL .child1 .guide .guideContent{
+    float: left;
+    width: 363px;
+    margin-bottom: 20px;
+    margin-left: 39px;
+
+    /*padding-right: 100px;*/
+}
+.content .contentL .child1 .guide a{
+    line-height: 28px;
+    margin-right: 0;
+}
+/*.content .contentL .one a{
+    float: left;
+    margin-right: 21px;
+    line-height: 28px;
+    font-size: 12px;
+
+
+}*/
+.content .contentL .a1{
+    width: 193px;
+    height: 90px;
+    padding: 10px 16px 8px 19px ;
+    /*background: indianred;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    border: 2px solid #c9cbce;
+    border-right: none;
+}
+.content .contentL .a2{
+    width: 600px;
+    /*height: 196px;*/
+    border: 2px solid #c9cbce;
+    /*background: palegoldenrod;*/
+    position: absolute;
+    left: 228px;
+    top: -46px;
+    padding-top: 16px;
+    /*z-index: 100;*/
+}
+.content .contentL .b1{
+    width: 193px;
+    height: 90px;
+    padding: 10px 16px 8px 19px ;
+    /*background: indianred;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    border: 2px solid #c9cbce;
+    border-right: none;
+}
+.content .contentL .b2{
+    width: 600px;
+    /*height: 196px;*/
+    border: 2px solid #c9cbce;
+    /*background: palegoldenrod;*/
+    position: absolute;
+    left: 228px;
+    top: -46px;
+    padding-top: 16px;
+    /*z-index: 100;*/
+}
+.content .contentL .c1{
+    width: 193px;
+    height: 90px;
+    padding: 10px 16px 8px 19px ;
+    /*background: indianred;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    border: 2px solid #c9cbce;
+    border-right: none;
+}
+.content .contentL .c2{
+    width: 600px;
+    /*height: 196px;*/
+    border: 2px solid #c9cbce;
+    /*background: palegoldenrod;*/
+    position: absolute;
+    left: 228px;
+    top: -46px;
+    padding-top: 16px;
+    /*z-index: 100;*/
+}
+.content .contentL .d1{
+    width: 193px;
+    height: 90px;
+    padding: 10px 16px 8px 19px ;
+    /*background: indianred;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    border: 2px solid #c9cbce;
+    border-right: none;
+}
+.content .contentL .d2{
+    width: 600px;
+    /*height: 196px;*/
+    border: 2px solid #c9cbce;
+    /*background: palegoldenrod;*/
+    position: absolute;
+    left: 228px;
+    top: -46px;
+    padding-top: 16px;
+    /*z-index: 100;*/
+}
+.content .contentL .e1{
+    width: 193px;
+    height: 63px;
+    padding: 10px 16px 8px 19px ;
+    /*background: indianred;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    border: 2px solid #c9cbce;
+    border-right: none;
+}
+.content .contentL .e2{
+    width: 600px;
+    /*height: 196px;*/
+    border: 2px solid #c9cbce;
+    /*background: palegoldenrod;*/
+    position: absolute;
+    left: 228px;
+    top: -46px;
+    padding-top: 16px;
+    /*z-index: 100;*/
+}
+.content .contentL .f1{
+    width: 193px;
+    height: 63px;
+    padding: 10px 16px 8px 19px ;
+    /*background: indianred;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    border: 2px solid #c9cbce;
+    border-right: none;
+}
+.content .contentL .f2{
+    width: 600px;
+    /*height: 196px;*/
+    border: 2px solid #c9cbce;
+    /*background: palegoldenrod;*/
+    position: absolute;
+    left: 228px;
+    top: -46px;
+    padding-top: 16px;
+    /*z-index: 100;*/
+}
+.content .contentL .child,.content .contentL .child1{
+     display: none;
+ }
+.content .contentL .subscription{
+    width: 230px;
+    height: 46px;
+    background: #fafafa;
+    border-bottom: 2px solid #00b38a;
+}
+.content .contentL .blank{
+    width: 230px;
+    background: white;
+    height: 12px;
+}
+.content .contentL .subscription .position{
+    width: 72px;
+    height: 46px;
+    /*background: red;*/
+    margin-left: 40px;
+    font-size: 17px;
+    line-height: 46px;
+    color: #555555;
+}
+.content .contentL .subscription .go{
+    background: url("../img/arr_btn_c46d8e5.png")  0 -19px  no-repeat ;
+    float: right;
+    width: 21px;
+    height: 21px;
+    margin-top: 14px;
+    margin-right: 20px;
+    /*background: red;*/
+}
+.content .contentR{
+    float: left;
+    width: 744px;
+    height: 2592px;
+    /*background: yellow;*/
+    margin-left: 50px;
+}
+.content .contentR .search{
+
+}
+.content .contentR .search input{
+    float: left;
+}
+.content .contentR .search input[type=text]{
+    float: left;
+    width: 578px;
+    height: 33px;
+    border: 2px solid #00b38a;
+    padding-left: 10px;
+    font-size: 17px;
+    line-height: 33px;
+}
+.content .contentR .search input[type=button]{
+    width: 148px;
+    height: 37px;
+    background: #00b38a;
+    border: none;
+    color: #ffffff;
+    font-size: 17px;
+}
+.content .contentR .search .list{
+    width: 586px;
+    height: 357px;
+    /*background: red;*/
+    border: 2px solid #00b38a;
+    border-top: none;
+    display: none;
+}
+.content .contentR .search .list ul{
+    float: left;
+    width: 535px;
+    /*background: yellow;*/
+}
+.content .contentR .search .list .ulR{
+    /*width: 10px;*/
+    float: right;
+    background: #fafafa;
+    width: 32px;
+    height: 302px;
+    border-left:1px dashed #ededed;
+    padding: 9px;
+}
+.content .contentR .search .list li{
+    height: 32px;
+    line-height: 32px;
+    background: white;
+    padding-left: 6px;
+}
+.content .contentR .search .list li span{
+    float: right;
+    height: 32px;
+    line-height: 32px;
+    padding-right: 6px;
+
+}
+.content .contentR .search .list li:hover{
+    background: #00b38a;
+}
+.content .contentR .search .list a{
+    color: black;
+}
+.content .contentR .hotSearch{
+    float: left;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    /*background: red;*/
+    padding: 12px 0 20px;
+}
+.content .contentR .hotSearch a{
+    margin-left: 20px;
+    /*background: red;*/
+    color: #00b38a;
+}
+.content .contentR .box{
+    width: 612px;
+    height: 160px;
+    /*background: red;*/
+    /*margin-top: 83px;*/
+    /*position: relative;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*overflow: auto;*/
+    /*display: none;*/
+
+}
+.content .contentR .overflow{
+    /*float: left;*/
+    height: 160px;
+    width: 744px;
+    background: lavenderblush;
+    margin-top: 83px;
+    overflow: hidden;
+    position: relative;
+}
+.content .contentR .box .boxInner{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content .contentR .box .boxInner div{
+    /*float: left;*/
+    width: 612px;
+    height: 160px;
+    /*overflow: hidden;*/
+    /*background: red;*/
+}
+.content .contentR .box .boxInner div img{
+    width: 612px;
+    height: 160px;
+}
+.content .contentR .box .boxInnerR{
+    position: absolute;
+left: 617px;
+    /*top: 0;*/
+    width: 126px;
+    height: 160px;
+    /*background: lavenderblush;*/
+    float: right;
+}
+.content .contentR .box .boxInnerR div{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content .contentR .box .bgList{
+    position: absolute;
+    left: 617px;
+    /*top: 0;*/
+    width: 126px;
+    height: 160px;
+    background: lavenderblush;
+    float: right;
+}
+.content .contentR .box .bgList li{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 113px;
+    height: 42px;
+    border: 4px solid #d3d3d3;
+}
+.content .contentR .box .bgList .bot{
+    margin-bottom:0
+}
+.content .contentR .box .bgListLight{
+    position: absolute;
+    left: 617px;
+    /*top: 0;*/
+    width: 126px;
+    height: 160px;
+    /*background: lavenderblush;*/
+    /*float: right;*/
+}
+.content .contentR .box .bgListLight .bot{
+    margin-bottom:0
+}
+.content .contentR .box .bgListLight li{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 121px;
+    height: 50px;
+    background: #999999;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    /*display: none;*/
+}
+.content .contentR .box .bgListLight .bot{
+    margin-bottom:0
+}
+/*.content .contentR .box .boxInnerR{
+    position: relative;
+}*/
+.content .contentR .box .boxInnerR .boxInnerRCon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*background: red;*/
+}
+.content .contentR .moveImg{
+    width: 742px;
+    height: 117px;
+    /*background: red;*/
+    margin-top: 18px;
+}
+.content .contentR .moveImg li{
+    float: left;
+    width: 113px;
+    height: 113px;
+    /*background: palevioletred;*/
+    border: 2px solid #fafafa;
+    margin-right: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.content .contentR .moveImg li img{
+    width: 113px;
+    height: 113px;
+}
+.content .contentR .moveImg li span{
+    position: absolute;
+    top: 0;
+    left: -113px;
+    width: 100%;
+    height: 100%;
+
+}
+.content .contentR .moveImg li.twice{
+    margin-right: 0;
+}
+.content .contentR .detail{
+    margin-top: 26px;
+}
+.content .contentR .detail h2{
+    height: 39px;
+    /*background: red;*/
+    font-weight: normal;
+
+}
+.content .contentR .detail span{
+    font-size: 17px;
+    float: left;
+    /*background: palegoldenrod;*/
+}
+.content .contentR .detail .borderT{
+    width: 92px;
+    height: 26px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-top: 3px solid #00b38a;
+}
+.content .contentR .detail .spanR{
+    height: 26px;
+    width: 612px;
+    background: #f6f6f6;
+    padding-top: 13px;
+    padding-left: 20px;
+    color: #999999;
+}
+.content .contentR .detail .detailCon{
+    width: 100%;
+}
+.content .contentR .detail .detailCon div{
+    width: 100%;
+    /*background: hotpink;*/
+}
+.content .contentR .detail .detailCon .con1{
+    width: 100%;
+    margin-top: 17px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+}
+.content .contentR .detail .detailCon .con1 .con1Pos{
+    float: left;
+    margin-left: 16px;
+    color: #00b38a;
+}
+.content .contentR .detail .detailCon p{
+    width: 435px;
+    /*background: red;*/
+    height: 100%;
+    float: left;
+}
+.content .contentR .detail .detailCon .con1 .con1PosTwo{
+    float: left;
+    margin-left: 12px;
+    font-size: 12px;
+    color: #999999;
+}
+.content .contentR .detail .detailCon .con1 .con1PosThree{
+    float: left;
+    font-size: 14px;
+    color: #00b38a;
+}
+.content .contentR .detail .detailCon .con2{
+    width: 100%;
+    margin-bottom: 2px;
+    height: 31px;
+    line-height: 31px;
+    /*font-size: 13px;*/
+}
+.content .contentR .detail .detailCon .con2 span{
+    float: left;
+    font-size: 13px;
+}
+.content .contentR .detail .detailCon .con2 .con2Pos{
+    margin-left: 15px;
+    /*color: #fa608e*/
+
+}
+.content .contentR .detail .detailCon .con2 .con2PosTwo{
+    margin-left: 20px
+}
+.content .contentR .detail .detailCon .con3{
+
+    background: #fafafa;
+    width: 100%;
+    height: 39px;
+    border-bottom: 1px dashed #e1e1e1;
+
+
+}
+.content .contentR .detail .detailCon .con3 .con3Pos{
+    margin-left: 24px;
+    font-size: 14px;
+    height: 39px;
+    line-height: 39px;
+}
+.content .contentR .detail .detailCon .con3 .con3PosTwo{
+    height: 22px;
+    font-size: 14px;
+    border: 1px solid #dcdcdc;
+    margin-right: 14px;
+    margin-top: 8px;
+}
+.content .contentR .detail .readMore{
+    width: 119px;
+    height: 32px;
+    float: right;
+    margin-top: 25px;
+    background: #00b38a;
+    font-size: 16px;
+}
+.content .contentR .detail .readMore span{
+    float: left;
+    line-height: 32px;
+    height: 32px;
+    margin-left: 15px;
+}
+.content .contentR .detail .readMore img{
+    background: url("../img/arr_btn_c46d8e5.png") 0 0 no-repeat;
+    width: 18px;
+    height: 18px;
+    margin-top: 7px;
+    margin-left: 9px;
+    border: none;
+}
+.content .contentR .detail .link{
+    margin-top: 97px;
+    /*background: red;*/
+    border-top: 1px solid #ececed;
+    height: 233px;
+}
+.content .contentR .detail .link .friend{
+    width: 79px;
+    height: 200px;
+    /*background: aqua;*/
+    float: left;
+    padding-top: 22px;
+    font-size: 14px;
+    color: #333333;
+}
+.content .contentR .detail .link .linkCon{
+    /*background: aquamarine;*/
+    height: 31px;
+    line-height: 31px;
+    font-size: 11px;
+    width: 605px;
+    margin-top: 15px;
+    float: left;
+}
+.content .contentR .detail .link .linkCon a{
+    float: left;
+}
+.content .contentR .detail .link .linkCon1{
+    width: 605px;
+    /*height: 100px;*/
+    /*background: green;*/
+    float: left;
+}
+.content .contentR .detail .link span{
+    width: 1px;
+    height: 13px;
+    background: #b299b2;
+    margin: 9px 9px 0 9px ;
+    float: left;
+
+}
+.content .contentR .detail .link .linkCon1 a{
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    font-size: 11px;
+
+
+
+}
+.content .contentR .detail .link .click{
+    margin-top: 12px;
+    float: right;
+    width: 56px;
+    height: 31px;
+    line-height: 31px;
+    /*background: lavenderblush;*/
+}
+.content .contentR .detail .link .click img{
+    background: url("../img/arrow_up_03ace59.png");
+    width: 10px;
+    height: 6px;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-left: 3px;
+}
+.footer{
+    /*display: none;*/
+    margin-top: 45px;
+    height: 64px;
+    width: 100%;
+    float: left;
+    background: #74ccaa;
+    position: relative;
+}
+.footer .find{
+    margin-left: 52px;
+    margin-top: 10px;
+}
+.footer .findTop{
+    position: absolute;
+    top: -54px;
+    left: 53px;
+}
+.footer .toTop{
+    background: url("../img/backtop_4d5862f.png")0 0 no-repeat;
+    width: 28px;
+    height: 64px;
+    position: absolute;
+    top: -140px;
+    right: 98px;
+    /*display: none;*/
+
+}
+.footer .toTop:hover{
+    background-position: -28px 0;
+}
+.footer .want{
+    background: url("../img/feedback_06c5af9.png")-1px -1px no-repeat;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: -65px;
+    right: 98px;
+
+}
+.footer .want:hover{
+    background-position: -1px -32px;
+}
+.footer .respond{
+    width: 48px;
+    height: 12px;
+    position: absolute;
+    top: -30px;
+    right: 88px;
+    font-size: 12px;
+}
+.footer1{
+    position: fixed;
+    bottom: 0;
+}
+.footer .num{
+    position: absolute;
+    top: 23px;
+    /*left: 0;*/
+    background: url("../img/footbar_no_2448ca7.png") no-repeat;
+    /*top: ;*/
+    width: 17px;
+    height: 30px;
+    float: left;
+}
+.footer .num1{
+    background-position: 0-30px  ;
+    /*left: 2;*/
+    left: 457px;
+
+}
+.footer .num2{
+    background-position:0 -90px  ;
+    /*left: 2;*/
+    left: 477px;
+
+}
+.footer .num3{
+    background-position:0 -150px  ;
+    /*left: 2;*/
+    left: 497px;
+
+}
+.footer .num4{
+    background : url("../img/footbar_comma_365ec06.png");
+    /*left: 2;*/
+    left: 517px;
+    width: 5px;
+    height: 10px;
+    top: 43px;
+
+}
+.footer .num5{
+    background-position:0 -30px  ;
+    /*left: 2;*/
+    left: 527px;
+
+}
+.footer .num6{
+    background-position:0 -180px  ;
+    /*left: 2;*/
+    left: 547px;
+
+}
+.footer .num7{
+    background-position:0 -90px  ;
+    /*left: 2;*/
+    left: 567px;
+
+}
+.footer .num8{
+    background-position:0 -60px  ;
+    /*left: 2;*/
+    left: 697px;
+
+}
+.footer .num9{
+    background : url("../img/footbar_comma_365ec06.png");
+    /*left: 2;*/
+    left: 717px;
+    width: 5px;
+    height: 10px;
+    top: 43px;
+
+}
+.footer .num10{
+    background-position:0 -60px  ;
+    /*left: 2;*/
+    left: 727px;
+
+}
+.footer .num11{
+    background-position:0 -30px  ;
+    /*left: 2;*/
+    left: 747px;
+
+}
+.footer .num12{
+    background-position:0 -90px  ;
+    /*left: 2;*/
+    left: 767px;
+
+}
+.footer .num13{
+    background : url("../img/footbar_comma_365ec06.png");
+    /*left: 2;*/
+    left: 787px;
+    width: 5px;
+    height: 10px;
+    top: 43px;
+
+}
+.footer .num14{
+    background-position:0 -240px  ;
+    /*left: 2;*/
+    left: 797px;
+
+}
+.footer .num15{
+    background-position:0 -60px  ;
+    /*left: 2;*/
+    left: 817px;
+
+}
+.footer .num16{
+    background-position:0 -210px  ;
+    /*left: 2;*/
+    left: 837px;
+
+}
+.footer .compp{
+    position: absolute;
+    left: 594px;
+    top: 33px;
+    color: #fff;
+}
+.footer .ppoo{
+    position: absolute;
+    left: 859px;
+    top: 33px;
+    color: #fff;
+}
+.footer .in{
+    /*float: left;*/
+    width: 142px;
+    height: 64px;
+    font-size: 22px;
+    background: #87c89f;
+    line-height: 64px;
+    text-align: center;
+    position: absolute;
+    left: 980px;
+    color: #ffffff;
+}
+.footer .in:hover{
+    background: #6bb69a;
+}
+.footer .reg{
+    /*float: left;*/
+    width: 212px;
+    height: 64px;
+    font-size: 22px;
+    background: #e97572;
+    line-height: 64px;
+    text-align: center;
+    position: absolute;
+    left: 1122px;
+    color: #ffffff;
+}
+.footer .reg:hover{
+    background: #e76868;
+}
+.footerBo{
+    height: 67px;
+    background: #ffffff;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.footerBo .ph{
+    float: left;
+    position: absolute;
+    left: 160px;
+    top: 11px;
+
+}
+.footerBo .inc{
+    float: left;
+    position: absolute;
+    left: 401px;
+    top: 13px;
+    width: 768.094px;
+}
+.footerBo .inc a{
+    float: left;
+    font-size: 14px;
+    margin-left: 14px;
+    color: #555555;
+
+}
+.footerBo .las{
+    float: left;
+    width: 1024px;
+    height: 41px;
+    text-align: center;
+    line-height: 41px;
+    position: absolute;
+    top: 30px;
+    vertical-align: middle;
+    /*position: relative;*/
+}
+.footerBo .las img{
+    position: absolute;
+    top: 5px;
+    left: 500px;
+    /*float: left;*/
+}
+.footerBo .las span,.footerBo .las a,.footerBo .las img{
+    float: left;
+    font-size: 12px;
+    color: #d7d5d5;
+}
+.footerBo .las div{
+    position: absolute;
+    left: 570px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headerT{
+    height: 323px;
+    width: 100%;
+    background: #00b38a;
+}
+.headerT a{
+    background: url("../img/page2logo_13bcdf6.png") 0 0 no-repeat;
+    width: 128px;
+    height: 54px;
+    position: absolute;
+    top: 70px;
+    left: 115px;
+}
+.posA{
+    width: 613px;
+    height: 323px;
+    padding: 50px 47px 0 57px;
+    background: #ffffff;
+    position: absolute;
+    left: 352px;
+    top: 154px;
+
+    border: 1px solid #f6f6f6;
+}
+.posA input{
+    float: left;
+    width: 286px;
+    height: 46px;
+    background: #f8f8f8;
+    border: none;
+    padding-left: 14px;
+    font-size: 12px;
+}
+.posAL{
+    width: 300px;
+    /*background: red;*/
+    /*margin-bottom: 70px;*/
+    position: relative;
+}
+.posA .secret{
+    margin-top: 20px;
+}
+.posAL span{
+    font-size: 12px;
+    float: right;
+    margin-top: 19px;
+    color: #00b38a;
+}
+.posAL .btn{
+    width: 300px;
+    margin-top: 23px;
+    background: #00b38a;
+    font-size: 17px;
+    color: #ffffff;
+}
+.posAL h5{
+    float: left;
+    /*position: relative;*/
+    font-size: 12px;
+    color: #777777;
+    height: 20px;
+    width: 160px;
+    line-height: 20px;
+    padding-left: 50px;
+    margin-top: 21px;
+    margin-right: 70px;
+}
+.posAL h5 a{
+/*float: left;*/
+font-size: 16px;
+    color: #00b38a;
+    text-decoration: underline;
+
+}
+.fla{
+   position: absolute;
+    top: 290px;
+    left: 270px;
+float:right;
+    background: url("../img/page2icon-arrow-right_f36c0d6.png") -1px 0 no-repeat;
+    width: 17px;
+    height: 17px;
+}
+.posAMi{
+    position: absolute;
+    top: 50px;
+    left: 357px;
+    height: 253px;
+    width: 52px;
+    border-right: 1px dashed #eeeeee;
+    float: left;
+    /*background: red;*/
+}
+.posAMi .or{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    top: 110.5px;
+    left: 47px;
+    font-size: 9px;
+    background: #ffffff;
+    color: #dddddd;
+
+}
+.posAR{
+    position: absolute;
+    top: 50px;
+    right: 47px;
+
+    width: 150px;
+    height: 260px;
+    /*background: lightgrey;*/
+    float: right;
+}
+.posAR a{
+float: left;
+    width: 44px;
+    height: 43px;
+    margin-right: 9px;
+}
+.posAR span{
+    font-size: 12px;
+    float: left;
+    margin-bottom: 13px;
+}
+.posAR .sina{
+    background: url("../img/page2icon-sina_9cae1d9.png") 0 0 no-repeat;
+}
+.posAR .tent{
+    background: url("../img/page2icon-tecent_5870bd4.png") 0 0 no-repeat;
+}
+.posAR a.chat{
+    background: url("../img/page2icon-wechat_12ea62f.png") 0 0 no-repeat;
+    margin-right: 0;
+}
+.posAR img{
+    float: left;
+    margin-top: 37px;
+    width: 124px;
+    height: 124px;
+}
+.posAR p{
+    float: left;
+    font-size: 12px;
+    margin-left: 10px;
+}
+h4{
+    position: absolute;
+    top: 583px;
+    left: 570px;
+    font-weight: normal;
+
+}
